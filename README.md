@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="assets/hm/hero.svg" alt="Abdullah Mohamed — Full-Stack Developer" width="100%"/>
+  <img
+    src="assets/hm/hero.svg"
+    alt="Abdullah Mohamed — Full-Stack Developer"
+    width="100%"
+  />
 </div>
 
 <br/>
