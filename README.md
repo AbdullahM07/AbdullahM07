@@ -1,6 +1,6 @@
 
-<h2>Abdullah Mohamed<h2>
-<br><br>Software Engineer<br>Full Stack Developer<br><br>Bachelor of Science in Computer Science<br>Suez Canal University, Egypt<br>
+<h1>Abdullah Mohamed<h1>
+<h2><br>Software Engineer<br>Full Stack Developer<br><br>Bachelor of Science in Computer Science<br>Suez Canal University, Egypt<br><h2>
 
 
 ## 🌐 Socials:
