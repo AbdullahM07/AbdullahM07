@@ -1,5 +1,6 @@
-# 💫 About Me:
-Abdullah Mohamed<br><br>Software Engineer<br>Full Stack Developer<br><br>Bachelor of Science in Computer Science<br>Suez Canal University, Egypt<br>
+About Me:
+<h6>Abdullah Mohamed<h6>
+<br><br>Software Engineer<br>Full Stack Developer<br><br>Bachelor of Science in Computer Science<br>Suez Canal University, Egypt<br>
 
 
 ## 🌐 Socials:
