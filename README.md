@@ -1,5 +1,5 @@
-About Me:
-<h6>Abdullah Mohamed<h6>
+
+<h2>Abdullah Mohamed<h2>
 <br><br>Software Engineer<br>Full Stack Developer<br><br>Bachelor of Science in Computer Science<br>Suez Canal University, Egypt<br>
 
 
