@@ -13,7 +13,7 @@
 </p>
 
 ---
-**🛠️ Tech Stack**
+** Tech Stack**
 <br>  <br />
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -45,7 +45,7 @@
 
 ---
 
-**📂 Featured Projects**
+** Featured Projects**
 
 - 🏥 **[WE CARE](https://github.com/AbdullahM07/WE-CARE)**
   * Healthcare management platform with appointment scheduling and secure communication between patients and staff.
@@ -53,7 +53,7 @@
 
 ---
 
-**📊 GitHub Analytics**
+** GitHub Analytics**
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AbdullahM07&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" height="150" alt="GitHub Stats"/>
@@ -68,7 +68,7 @@
 
 ---
 
-**📫 Connect With Me**
+** Connect With Me**
 
 <p align="center">
   <a href="https://www.linkedin.com/in/3bs7"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -78,4 +78,4 @@
 
 ---
 
-<p align="center">⭐ Thanks for visiting! Feel free to explore my repositories, collaborate, or reach out if you’d like to work together.</p>
+<p align="center"> *Thanks for visiting! Feel free to explore my repositories, collaborate, or reach out if you’d like to work together.</p>
