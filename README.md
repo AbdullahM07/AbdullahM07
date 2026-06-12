@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  🎓 Bachelor of Science in Computer Science — Suez Canal University, Egypt
+  Bachelor of Science in Computer Science — Suez Canal University, Egypt
 </p>
 
 <p align="center">
@@ -13,7 +13,16 @@
 </p>
 
 ---
-** Tech Stack**
+
+**Words to Code &amp; Live By**
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=4500&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=First%2C+solve+the+problem.+Then%2C+write+the+code.+-+John+Johnson;Make+it+work%2C+make+it+right%2C+make+it+fast.+-+Kent+Beck;Simplicity+is+the+soul+of+efficiency.+-+Austin+Freeman;Programs+must+be+written+for+people+to+read.+-+Harold+Abelson;The+only+way+to+do+great+work+is+to+love+what+you+do.+-+Steve+Jobs;Stay+hungry%2C+stay+foolish.+-+Steve+Jobs&repeat=true" alt="Quotes about software engineering and life" />
+</p>
+
+---
+
+**Tech Stack**
 <br>  <br />
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -45,15 +54,15 @@
 
 ---
 
-** Featured Projects**
+**Featured Projects**
 
-- 🏥 **[WE CARE](https://github.com/AbdullahM07/WE-CARE)**
+- **[WE CARE](https://github.com/AbdullahM07/WE-CARE)**
   * Healthcare management platform with appointment scheduling and secure communication between patients and staff.
   * **Tech:** Node.js · Express · MongoDB · Mongoose · JWT
 
 ---
 
-** GitHub Analytics**
+**GitHub Analytics**
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AbdullahM07&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" height="150" alt="GitHub Stats"/>
@@ -68,7 +77,7 @@
 
 ---
 
-** Connect With Me**
+**Connect With Me**
 
 <p align="center">
   <a href="https://www.linkedin.com/in/3bs7"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -78,4 +87,4 @@
 
 ---
 
-<p align="center"> *Thanks for visiting! Feel free to explore my repositories, collaborate, or reach out if you’d like to work together.</p>
+<p align="center">Thanks for visiting! Feel free to explore my repositories, collaborate, or reach out if you’d like to work together.</p>
