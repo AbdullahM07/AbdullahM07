@@ -1,3 +1,4 @@
+
 ![Tech Stack](assets/image.png)
 
 <p align="center">
@@ -68,7 +69,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=AbdullahM07&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+    src="https://github-readme-stats-beryl-nine-45.vercel.app/api?username=AbdullahM07&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
     alt="GitHub Stats"
     height="170"
   />
@@ -81,12 +82,12 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahM07&layout=pie&theme=tokyonight&hide_border=true&langs_count=8&count_private=true"
+    src="https://github-readme-stats-beryl-nine-45.vercel.app/api/top-langs/?username=AbdullahM07&layout=pie&theme=tokyonight&hide_border=true&langs_count=8&count_private=true"
     alt="Most Used Languages Pie"
     height="170"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahM07&layout=compact&theme=radical&hide_border=true&langs_count=8&count_private=true"
+    src="https://github-readme-stats-beryl-nine-45.vercel.app/api/top-langs/?username=AbdullahM07&layout=compact&theme=radical&hide_border=true&langs_count=8&count_private=true"
     alt="Most Used Languages Compact"
     height="170"
   />
@@ -105,3 +106,4 @@
 ---
 
 <p align="center">Thanks for visiting! Feel free to explore my repositories, collaborate, or reach out if you’d like to work together.</p>
+```
