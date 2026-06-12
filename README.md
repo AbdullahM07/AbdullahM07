@@ -62,17 +62,34 @@
 
 ---
 
-**GitHub Analytics**
+---
+
+## GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbdullahM07&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" height="150" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="https://streak-stats.demolab.com?user=AbdullahM07&theme=radical&hide_border=true" height="150" alt="GitHub Streak"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=AbdullahM07&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+    alt="GitHub Stats"
+    height="170"
+  />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=AbdullahM07&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
+    height="170"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahM07&layout=pie&theme=tokyonight&hide_border=true&count_private=true&langs_count=8" height="170" alt="Top Languages"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahM07&layout=compact&theme=radical&hide_border=true&count_private=true&langs_count=8" height="170" alt="Top Languages"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahM07&layout=pie&theme=tokyonight&hide_border=true&langs_count=8&count_private=true"
+    alt="Most Used Languages Pie"
+    height="170"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahM07&layout=compact&theme=radical&hide_border=true&langs_count=8&count_private=true"
+    alt="Most Used Languages Compact"
+    height="170"
+  />
 </p>
 
 ---
