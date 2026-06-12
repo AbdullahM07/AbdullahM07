@@ -1,0 +1,26 @@
+<svg width="820" height="220" viewBox="0 0 820 220" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <!-- Seamless flowing gradient: stops mirror so the repeated tile matches edge-to-edge -->
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#00C6FF"/>
+      <stop offset="0.25" stop-color="#0072FF"/>
+      <stop offset="0.5" stop-color="#7B2FF7"/>
+      <stop offset="0.75" stop-color="#0072FF"/>
+      <stop offset="1" stop-color="#00C6FF"/>
+      <!-- Move one full tile width left->right, loop forever -->
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="420 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-75%" width="150%" height="250%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0s" fill="freeze"/>
+    <text x="410" y="108" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="2" fill="url(#flow)" filter="url(#glow)">Abdullah Mohamed</text>
+    <text x="410" y="166" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="7" fill="url(#flow)">SOFTWARE ENGINEER</text>
+  </g>
+</svg>

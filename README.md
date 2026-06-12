@@ -1,11 +1,11 @@
 ![Tech Stack](assets/image.png)
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=4000&color=0072FF&center=true&vCenter=true&width=600&lines=Abdullah+Mohamed&repeat=false" alt="Abdullah Mohamed" />
+  <img src="assets/header.svg" alt="Abdullah Mohamed — Software Engineer" width="700" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&pause=500&color=3178C6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer&repeat=false" alt="Full Stack Developer" />
+  🎓 Bachelor of Science in Computer Science — Suez Canal University, Egypt
 </p>
 
 <p align="center">
