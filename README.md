@@ -55,14 +55,6 @@
 
 ---
 
-**Featured Projects**
-
-- **[WE CARE](https://github.com/AbdullahM07/WE-CARE)**
-  * Healthcare management platform with appointment scheduling and secure communication between patients and staff.
-  * **Tech:** Node.js · Express · MongoDB · Mongoose · JWT
-
----
-
 ---
 
 ## GitHub Analytics
