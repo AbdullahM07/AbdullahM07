@@ -21,7 +21,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=9000&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=First%2C+solve+the+problem.+Then%2C+write+the+code.+-+John+Johnson;Make+it+work%2C+make+it+right%2C+make+it+fast.+-+Kent+Beck;Simplicity+is+the+soul+of+efficiency.+-+Austin+Freeman;Programs+must+be+written+for+people+to+read.+-+Harold+Abelson;The+only+way+to+do+great+work+is+to+love+what+you+do.+-+Steve+Jobs;Stay+hungry%2C+stay+foolish.+-+Steve+Jobs&repeat=true" alt="Quotes about software engineering and life" />
 </p>
 
----
+
 
 ---
 
