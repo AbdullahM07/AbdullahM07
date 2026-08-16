@@ -2,7 +2,7 @@
 ![Tech Stack](assets/image.png)
 
 <p align="center">
-  <img src="assets/[https://github.com/AbdullahM07/AbdullahM07/blob/main/assets/615aeeb0-31e0-4d69-b87b-646e496bc91f.png]" alt="Abdullah Mohamed — Software Engineer" width="700" />
+  <img src="assets/615aeeb0-31e0-4d69-b87b-646e496bc91f.png" alt="Abdullah Mohamed — Software Engineer" width="700" />
 </p>
 
 <p align="center">
