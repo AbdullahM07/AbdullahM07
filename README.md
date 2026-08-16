@@ -1,5 +1,5 @@
 
-![Tech Stack](assets/image.png)
+![Tech Stack](assets/615aeeb0-31e0-4d69-b87b-646e496bc91f.png)
 
 <p align="center">
   <img src="assets/615aeeb0-31e0-4d69-b87b-646e496bc91f.png" alt="Abdullah Mohamed — Software Engineer" width="700" />
