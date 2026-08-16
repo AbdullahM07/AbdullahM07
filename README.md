@@ -1,6 +1,5 @@
 
-![Tech Stack](assets/615aeeb0-31e0-4d69-b87b-646e496bc91f.png)
-
+<img src="assets/615aeeb0-31e0-4d69-b87b-646e496bc91f.png" alt="Tech Stack">
 
 
 <p align="center">
