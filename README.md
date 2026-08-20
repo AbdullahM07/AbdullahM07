@@ -4,6 +4,8 @@
 
 <p align="center">
   Bachelor of Science in Computer Science — Suez Canal University, Egypt
+
+<h1 align="center">Openship</h1>
 </p>
 
 
