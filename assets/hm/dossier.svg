@@ -34,7 +34,7 @@
   <rect x="66" y="50" width="150" height="190" fill="none" stroke="#3c3c44"/>
   <g stroke="#d10a11" stroke-width="1.6" fill="none">
     <path d="M66 68 v-18 h18"/><path d="M198 50 h18 v18"/>
-    <path d="M66 222 v18 h18"/><path d="M198 240 h18 v18"/>
+    <path d="M66 222 v18 h18"/><path d="M198 240 h18 v-18"/>
   </g>
   <text class="s" x="141" y="258" text-anchor="middle" font-size="8.5" letter-spacing="2.2" fill="#3c3c44">PHOTO ON FILE</text>
 

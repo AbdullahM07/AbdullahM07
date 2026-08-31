@@ -151,7 +151,7 @@ cells.forEach((c, i) => {
 svg += `  <rect x="620" y="40" width="308" height="128" fill="#101016" stroke="#3c3c44"/>
   <g stroke="#d10a11" stroke-width="1.2" fill="none" opacity=".85">
     <path d="M620 52 v-12 h12"/><path d="M916 40 h12 v12"/>
-    <path d="M620 156 v12 h12"/><path d="M916 168 h12 v12"/>
+    <path d="M620 156 v12 h12"/><path d="M916 168 h12 v-12"/>
   </g>
   <text class="s" x="774" y="68" text-anchor="middle" font-size="9.5" letter-spacing="2.8" fill="#8a8a90">CURRENT STREAK</text>
   <text class="s" x="774" y="118" text-anchor="middle" font-size="42" font-weight="bold" letter-spacing="2" fill="#d10a11">${current}</text>
