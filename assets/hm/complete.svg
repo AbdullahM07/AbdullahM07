@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 72" width="700" height="72" role="img" aria-label="Mission complete">
+  <defs><style>.s{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}</style></defs>
+  <rect width="700" height="72" fill="#08080a"/>
+  <text class="s" x="352" y="36" text-anchor="middle" font-size="24" font-weight="bold" letter-spacing="8" fill="#f2f2f2">MISSION COMPLETE</text>
+  <rect x="250" y="48" width="200" height="1" fill="#3c3c44"/>
+  <rect x="336" y="45.5" width="28" height="4" fill="#d10a11"/>
+  <text class="s" x="352" y="66" text-anchor="middle" font-size="9" letter-spacing="3.4" fill="#8a8a90">EXIT SECURED &#8212; THANKS FOR VISITING</text>
+</svg>

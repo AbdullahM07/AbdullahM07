@@ -127,43 +127,43 @@ const cells = [
   { label: "CONTRIBUTED TO", value: fmt(user.repositoriesContributedTo.totalCount) },
 ];
 
-const RAMP = ["#fcee0a", "#d9cd09", "#b0a607", "#877f05", "#5e5904", "#3a3702"];
+const RAMP = ["#ff525a", "#e31b23", "#c00d13", "#8f070e", "#67060b", "#45050a"];
 
 let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Field record — GitHub statistics">
   <defs><style>.s{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}</style></defs>
-  <rect width="1000" height="300" fill="#0d0d11"/>
-  <rect x="40" y="16" width="920" height="268" fill="none" stroke="#33333c"/>
-  <rect x="40" y="16" width="4" height="268" fill="#fcee0a"/>
+  <rect width="1000" height="300" fill="#08080a"/>
+  <rect x="40" y="16" width="920" height="268" fill="none" stroke="#3c3c44"/>
+  <rect x="40" y="16" width="4" height="268" fill="#d10a11"/>
 `;
 
 // Stat cells: 3 columns x 2 rows.
 cells.forEach((c, i) => {
   const x = 72 + (i % 3) * 172;
   const y = 40 + Math.floor(i / 3) * 70;
-  svg += `  <rect x="${x}" y="${y}" width="160" height="58" fill="#16161d" stroke="#33333c"/>
-  <rect x="${x}" y="${y}" width="3" height="58" fill="#fcee0a" opacity=".55"/>
+  svg += `  <rect x="${x}" y="${y}" width="160" height="58" fill="#101016" stroke="#3c3c44"/>
+  <rect x="${x}" y="${y}" width="3" height="58" fill="#d10a11" opacity=".55"/>
   <text class="s" x="${x + 16}" y="${y + 32}" font-size="20" font-weight="bold" letter-spacing="1" fill="#f2f2f2">${c.value}</text>
-  <text class="s" x="${x + 16}" y="${y + 48}" font-size="8" letter-spacing="2.2" fill="#8b8b93">${c.label}</text>
+  <text class="s" x="${x + 16}" y="${y + 48}" font-size="8" letter-spacing="2.2" fill="#8a8a90">${c.label}</text>
 `;
 });
 
 // Streak block with crosshair corners.
-svg += `  <rect x="620" y="40" width="308" height="128" fill="#16161d" stroke="#33333c"/>
-  <g stroke="#49f3ff" stroke-width="1.2" fill="none" opacity=".85">
+svg += `  <rect x="620" y="40" width="308" height="128" fill="#101016" stroke="#3c3c44"/>
+  <g stroke="#d10a11" stroke-width="1.2" fill="none" opacity=".85">
     <path d="M620 52 v-12 h12"/><path d="M916 40 h12 v12"/>
     <path d="M620 156 v12 h12"/><path d="M916 168 h12 v12"/>
   </g>
-  <text class="s" x="774" y="68" text-anchor="middle" font-size="9.5" letter-spacing="2.8" fill="#8b8b93">CURRENT STREAK</text>
-  <text class="s" x="774" y="118" text-anchor="middle" font-size="42" font-weight="bold" letter-spacing="2" fill="#49f3ff">${current}</text>
-  <text class="s" x="774" y="136" text-anchor="middle" font-size="9" letter-spacing="3" fill="#8b8b93">DAYS</text>
-  <text class="s" x="774" y="158" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#8b8b93">LONGEST &#8212; ${longest} DAYS</text>
+  <text class="s" x="774" y="68" text-anchor="middle" font-size="9.5" letter-spacing="2.8" fill="#8a8a90">CURRENT STREAK</text>
+  <text class="s" x="774" y="118" text-anchor="middle" font-size="42" font-weight="bold" letter-spacing="2" fill="#d10a11">${current}</text>
+  <text class="s" x="774" y="136" text-anchor="middle" font-size="9" letter-spacing="3" fill="#8a8a90">DAYS</text>
+  <text class="s" x="774" y="158" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#8a8a90">LONGEST &#8212; ${longest} DAYS</text>
 `;
 
 // Language bar + legend.
-svg += `  <rect x="72" y="192" width="3" height="16" fill="#fcee0a"/>
-  <text class="s" x="86" y="205" font-size="9.5" letter-spacing="2.8" fill="#8b8b93">TOP LANGUAGES</text>
-  <text class="s" x="928" y="205" text-anchor="end" font-size="9" letter-spacing="2.6" fill="#33333c">// BY CODE VOLUME</text>
-  <rect x="72" y="216" width="856" height="10" fill="#16161d" stroke="#33333c"/>
+svg += `  <rect x="72" y="192" width="3" height="16" fill="#d10a11"/>
+  <text class="s" x="86" y="205" font-size="9.5" letter-spacing="2.8" fill="#8a8a90">TOP LANGUAGES</text>
+  <text class="s" x="928" y="205" text-anchor="end" font-size="9" letter-spacing="2.6" fill="#3c3c44">// BY CODE VOLUME</text>
+  <rect x="72" y="216" width="856" height="10" fill="#101016" stroke="#3c3c44"/>
 `;
 let bx = 72;
 topLangs.forEach((l, i) => {
@@ -176,14 +176,14 @@ topLangs.forEach((l, i) => {
   const label = esc(l.name);
   const pct = `${l.pct.toFixed(1)}%`;
   svg += `  <rect x="${lx}" y="244" width="8" height="8" fill="${RAMP[i]}"/>
-  <text class="s" x="${lx + 14}" y="252" font-size="10" fill="#8b8b93">${label}</text>
+  <text class="s" x="${lx + 14}" y="252" font-size="10" fill="#8a8a90">${label}</text>
   <text class="s" x="${lx + 14 + label.length * 5.6 + 6}" y="252" font-size="10" font-weight="bold" fill="#f2f2f2">${pct}</text>
 `;
   lx += 14 + label.length * 5.6 + 6 + pct.length * 5.8 + 26;
 });
 
 const stamp = now.toISOString().slice(0, 16).replace("T", " ");
-svg += `  <text class="s" x="928" y="274" text-anchor="end" font-size="8" letter-spacing="2" fill="#33333c">LAST SYNC &#8212; ${stamp} UTC</text>
+svg += `  <text class="s" x="928" y="274" text-anchor="end" font-size="8" letter-spacing="2" fill="#3c3c44">LAST SYNC &#8212; ${stamp} UTC</text>
 </svg>
 `;
 
