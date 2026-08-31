@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 48" width="1000" height="48" role="img" aria-label="05 TRACE">
+  <rect width="1000" height="48" fill="#0d0d11"/>
+  <rect x="40" y="14" width="4" height="20" fill="#fcee0a"/>
+  <text font-family="'Courier New',Courier,monospace" x="56" y="29" font-size="12" font-weight="bold" letter-spacing="2" fill="#fcee0a">05</text>
+  <text font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" x="92" y="29" font-size="14" font-weight="bold" letter-spacing="5.5" fill="#f2f2f2">TRACE</text>
+  <rect x="220" y="24" width="611" height="1" fill="#33333c"/>
+  <text font-family="'Courier New',Courier,monospace" x="960" y="28" text-anchor="end" font-size="9" letter-spacing="2.6" fill="#3f3f48">// ENCRYPTED</text>
+</svg>

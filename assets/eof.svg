@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 96" width="1000" height="96" role="img" aria-label="Connection terminated — thanks for visiting">
+  <rect width="1000" height="96" fill="#0d0d11"/>
+  <text font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" x="500" y="46" text-anchor="middle" font-size="21" font-weight="bold" letter-spacing="7" fill="#f2f2f2">CONNECTION TERMINATED</text>
+  <rect x="418" y="56" width="164" height="3" fill="#fcee0a"/>
+  <text font-family="'Courier New',Courier,monospace" x="500" y="80" text-anchor="middle" font-size="9.5" letter-spacing="3" fill="#8b8b93">// EOF &#8212; THANKS FOR VISITING</text>
+</svg>

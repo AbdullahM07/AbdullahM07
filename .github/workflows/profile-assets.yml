@@ -1,0 +1,50 @@
+name: Generate profile assets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Runs before the snake step so dist/ is created by the runner user;
+      # the snk Docker action would otherwise create it root-owned.
+      # Add a GH_PAT repo secret (classic PAT, repo + read:user scopes) to
+      # include private contributions in the numbers; falls back to the
+      # default token, which only sees public activity.
+      - name: Generate stats panel
+        run: node scripts/generate-stats.mjs --out dist/stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT != '' && secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%2300b8cc&color_dots=%23ebebef,%23e9e494,%23d9cd09,%23a89f06,%23716a04
+            dist/github-snake-dark.svg?color_snake=%2349f3ff&color_dots=%2316161d,%233a3702,%23877f05,%23d9cd09,%23fcee0a
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
